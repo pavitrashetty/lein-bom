@@ -1,15 +1,14 @@
 # lein-bom
 
-[![Build Status](https://travis-ci.org/tsachev/lein-bom.svg?branch=master)](https://travis-ci.org/tsachev/lein-bom)
-[![codecov.io](https://codecov.io/github/tsachev/lein-bom/coverage.svg?branch=master)](https://codecov.io/github/tsachev/lein-bom?branch=master)
-
 A Leiningen plugin that provides support for importing Maven "Bill Of Materials" (BOM) dependencies.
 
-[![Clojars Project](https://clojars.org/lein-bom/latest-version.svg)](https://clojars.org/lein-bom)
+```clojure
+[helpshift/lein-bom "0.2.0"]
+```
 
 ## Install
 
-Put `[lein-bom "0.2.0-SNAPSHOT"]` into the `:plugins` vector of your `project.clj`.
+Put `[lein-bom "0.2.0"]` into the `:plugins` vector of your `project.clj`.
 
 ## Usage
 
@@ -27,6 +26,4 @@ $ lein bom
 
 ## License
 
-Copyright © 2020
-
-Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.
+Distributed under the [Eclipse Public License](http://www.eclipse.org/legal/epl-v10.html).
